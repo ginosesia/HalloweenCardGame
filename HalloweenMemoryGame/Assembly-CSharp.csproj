@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/LevelSelectManager.cs" />
     <Compile Include="Assets/Scripts/Global.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/MenuManager.cs" />
   </ItemGroup>
   <ItemGroup>
