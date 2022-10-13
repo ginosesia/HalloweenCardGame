@@ -7,6 +7,7 @@ TagManager:
   - Easy
   - Medium
   - Hard
+  - Button
   layers:
   - Default
   - TransparentFX

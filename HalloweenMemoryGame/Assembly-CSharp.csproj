@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/Global.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/MenuManager.cs" />
+    <Compile Include="Assets/Scripts/AddButtons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

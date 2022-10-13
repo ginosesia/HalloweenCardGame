@@ -6,6 +6,7 @@ public class Global : MonoBehaviour
     public static string MENU_SCENE = "MenuScene";
     public static string GAME_SCENE = "GameScene";
     public static string LEVEL_SELECT_SCENE = "LevelSelectScene";
+    public static string BUTTON_TAG = "Button";
 
     public static int EASY_LEVEL = 12;
     public static int MEDIUM_LEVEL = 26;
