@@ -354,6 +354,7 @@
 "Assets/Scripts/Global.cs"
 "Assets/Scripts/LevelSelectManager.cs"
 "Assets/Scripts/MenuManager.cs"
+"Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic

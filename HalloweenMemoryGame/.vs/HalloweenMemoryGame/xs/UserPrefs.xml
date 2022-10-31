@@ -1,23 +1,22 @@
 ﻿<Properties StartupConfiguration="{D478B8DD-788A-9AB6-B47F-0CF9FB46B308}|">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Global.cs">
     <Files>
-      <File FileName="Assets/Scripts/Global.cs" Line="9" Column="46" />
+      <File FileName="Assets/Scripts/Global.cs" Line="13" Column="40" />
       <File FileName="Assets/Scripts/LevelSelectManager.cs" Line="32" Column="42" />
       <File FileName="Assets/Scripts/MenuManager.cs" Line="9" Column="59" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="29" Column="66" />
-      <File FileName="Assets/Scripts/AddButtons.cs" Line="16" Column="10" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="102" Column="10" />
+      <File FileName="Assets/Scripts/AddButtons.cs" Line="28" Column="92" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="15" Column="87" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HalloweenMemoryGame" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GameManager.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,9 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1498f84-720a-4aec-883e-81c3caa76dac" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0b6038f4-3699-4c4e-b9f4-7619397eefb0" />
 </Properties>
