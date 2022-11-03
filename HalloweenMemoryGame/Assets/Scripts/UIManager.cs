@@ -21,7 +21,4 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(Global.LEVEL_SELECT_SCENE);
     }
 
-
-
-
 }

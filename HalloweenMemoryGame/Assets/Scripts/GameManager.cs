@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Sprite backgroundCardImage;
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject matchFoundPanel;
 
     public List<Button> cardButtonList = new List<Button>();
 
@@ -106,10 +107,13 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DealWithMatchingCards()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.1f);
 
         if (firstGuessCardName == secondGuessCardName)
         {
+            //Set Match found panel to active
+            matchFoundPanel.SetActive(true);
+
             yield return new WaitForSeconds(1.5f);
 
             cardButtonList[firstGuessIndex].interactable = false;
@@ -118,13 +122,16 @@ public class GameManager : MonoBehaviour
             cardButtonList[firstGuessIndex].image.color = new Color(0, 0, 0, 0);
             cardButtonList[secondGuessIndex].image.color = new Color(0, 0, 0, 0);
 
-
+            //Set Match found panel to not active
+            matchFoundPanel.SetActive(false);
 
             CheckIfGameIsComplete();
 
         }
         else
         {
+            yield return new WaitForSeconds(0.5f);
+
             cardButtonList[firstGuessIndex].image.sprite = backgroundCardImage;
             cardButtonList[secondGuessIndex].image.sprite = backgroundCardImage;
         }
